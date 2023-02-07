@@ -1,0 +1,15 @@
+# Java/Maven related files
+target/
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+*.jar
+*.war
+.idea/
+*.DS_Store
+
+# Selenium related files
+/drivers/
+/screenshots/
