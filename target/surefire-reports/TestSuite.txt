@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.719 s <<< FAILURE! - in TestSuite
+googleSearchTest(FirstTest)  Time elapsed: 0.215 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e7f88c67a9153a2cd055acbef284843, sendKeysToElement {id=044ee768-3e07-4e68-84ff-238c99f0f761, value=[Ljava.lang.CharSequence;@aced190}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\tomis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54372}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54372/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e7f88c67a9153a2cd055acbef284843)] -> name: q]
+Session ID: 9e7f88c67a9153a2cd055acbef284843
+	at FirstTest.googleSearchTest(FirstTest.java:29)
+
